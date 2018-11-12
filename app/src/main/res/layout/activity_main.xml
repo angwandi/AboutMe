@@ -17,6 +17,22 @@
             android:text="@string/name"
             android:textAlignment="center"
             style="@style/NameStyle"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine|textPersonName"
+            android:ems="10"
+            android:id="@+id/nickname_edit" android:textAlignment="center" style="@style/NameStyle"
+            android:hint="@string/hint_name"/>
+    <Button
+            android:text="@string/done"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/topMargin"
+            android:fontFamily="@font/roboto"
+            android:id="@+id/doneButton"/>
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,14 +40,12 @@
             android:id="@+id/star_image"
             android:contentDescription="@string/yellow_star"
             android:layout_marginTop="@dimen/topMargin"/>
-    <EditText
+    <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textMultiLine|textPersonName"
-            android:text="Name"
-            android:ems="10"
-            android:id="@+id/nickname_edit" android:textAlignment="center" style="@style/NameStyle"
-            android:hint="@string/hint_name"/>
+            android:id="@+id/nick_name_text"
+            android:textAlignment="center" style="@style/NameStyle"
+            android:visibility="gone"/>
     <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

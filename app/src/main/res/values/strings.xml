@@ -109,4 +109,5 @@
         however a small line of blind text by the name of Lorem Ipsum decided to leave for the far
     </string>
     <string name="hint_name">What\'s your nick name?</string>
+    <string name="done">Done</string>
 </resources>
